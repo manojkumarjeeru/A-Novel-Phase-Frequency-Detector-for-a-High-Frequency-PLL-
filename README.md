@@ -23,10 +23,15 @@ main challenge in the design of PFD is to obtain very high operating frequency w
 proposed which is completely free from dead zone, dissipates very low power and operates at high frequency is given
 
 ## Circuit Design and Details 
-![hack_4](https://user-images.githubusercontent.com/72538560/156032830-b93dff2e-d9d4-4770-bda5-49a0c96dcb31.png) The 10T SRAM circuit is shown in fig.1.This circuit avoids the read operation noise by isolating the memory part(latch) of the cell from external environment by disabling the access transistors during read operation and the memory read operation is done by additing additional circuit connected to the Q.By this process we can also improve the read operation speed of SRAM since we are not using access transistors for measuring memory read operation and hence the leakage current is decreased. 
+![hack_4](https://user-images.githubusercontent.com/72538560/156032830-b93dff2e-d9d4-4770-bda5-49a0c96dcb31.png)
+The Circuit Design consists of Two D-Flip Flops without reset .The design  design concentrates on eliminating reset delay so that the dead zones are completely
+removed.The reset path is eliminated by adding pass transistor logic.Also, The design uses only 10 transistors which reduces power consumpumtion and overall area of the PLL Circuit compared to conventional PLL.
 
 ## Circuit Operation 
-There are three modes of operation of 10T SRAM: 1.Stand-by mode: When Wordline(WL) = 0 and Read enable(RE) = 0,then the memory part became isolated from external environment and the data present in it remains same. Therefore no read or write operation takes place. 2.Memory Read: When RE=1, then the Transmission gate is in active condition and the RDout gets the inverted value of Q(i.e, Qb) through the Transmission gates.And we off the access transistors during the memory read operation to reduce the leakage power. 3.Memory write: When WL=1, then the write operation is possible.If BL=0, then PM0 transistor will "ON" and Qb becomes 1 and Q becomes 0. Similarly if BL=1,then Q becomes 1 and Qb becomes 0. Since Memory write operation still uses the access transistors unlike Memory operation, the Memory write operation will be slower when compared to memory read operation. The main advantage of this 10T SRAM is that it doesn't require the precharge capacitors connected to a sense amplifier for memory read/write operation as that of 6T SRAM, because here the data stored in memory is directly passes through the inverter and transmision gates.And also the charging or discharging of RD happens only when the RD changes,i.e, there is no power is consumed or dissipated if the next data is same as that of previous value.Therefore, this design of 10T SRAM reduces the consumption of when consecutive readout values are same. 
+Initially the CLKref and CLKvco signals are at logic zero which are provided as clocks to D flip-flops. At the rising edge of CLKref, N7, N8 and N12 turns on and the UP signal goes to logic high. At the
+rising edge of CLKvco, N9, N10 and N11 turn on forcing DN to go high. When both UP and DN are high, the logic
+levels at points R and S in Fig. 3 are pulled down to logic zero making UP and DN to go to logic zero without any
+delay for reset. 
 
 ## Simulation Waveforms 
 ### 1.Write Operation 
