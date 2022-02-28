@@ -12,16 +12,14 @@ In this project I have implemented new phase frequency detector (PFD) which use 
 8.[Author](#Author) 
 
 ## Introduction 
-Phase Locked Loop (PLL) is a class of circuit, used primarily in communication systems suitable for a wide
-variety of applications, such as AM radio receivers, frequency demodulators, multipliers, dividers, and as
-frequency synthesizers. Recent advances in integrated circuit design techniques have led to the development of
-high performance PLL which has become more economical and reliable. Now a whole PLL circuit can be
-integrated as a part of a larger circuit on a single chip.
+PLL circuits have a wide range of uses in modern communications, including
+radios, telephones, cellular devices, Computers, as well as other devices. In mobile or
+wireless communications, PLLs have many uses like synchronisation, clock synthesis,
+and reducing jitter (Variation from its ideal position).
+
 The power consumption in the PFD contributes to a significant part of the total power consumption of a PLL.
 Therefore overall power consumption in a PLL can be reduced by minimizing the power consumption in PFD. The
-main challenge in the design of PFD is to obtain very high operating frequency with minimal power dissipation.
-Different PFD designs have been proposed by many researchers for achieving high operating frequency
-however power consumption reported have been comparatively high [1-4]. In this paper a novel PFD architecture is
+main challenge in the design of PFD is to obtain very high operating frequency with minimal power dissipation. In this paper a novel PFD architecture is
 proposed which is completely free from dead zone, dissipates very low power and operates at high frequency
 
 ## Circuit Design and Details 
