@@ -28,7 +28,8 @@ The Circuit Design consists of Two D-Flip Flops without reset .The design  desig
 removed.The reset path is eliminated by adding pass transistor logic.Also, The design uses only 10 transistors which reduces power consumpumtion and overall area of the PLL Circuit compared to conventional PLL.
 
 ## Circuit Operation
-![explanation](https://user-images.githubusercontent.com/72538560/156036900-884eace0-78e0-47e6-a60d-783d0ec1eed2.png)
+![explanation](https://user-images.githubusercontent.com/72538560/156037554-811cdf36-3c28-4f8c-ad4c-9323ae9f17bf.png)
+6-a60d-783d0ec1eed2.png)
 Initially the CLKref and CLKvco signals are at logic zero. At the rising edge of CLKref, N1, N4 and N5 turns on and the UP signal goes to logic high. At the
 rising edge of CLKvco, N2, N3 and N6 turn on forcing DN to go high. When both UP and DN are high, the logic
 levels at points A and B in Fig. 3 are pulled down to logic zero making UP and DN to go to logic zero without any
