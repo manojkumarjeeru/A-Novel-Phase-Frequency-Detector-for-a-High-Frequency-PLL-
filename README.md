@@ -31,7 +31,7 @@ removed.The reset path is eliminated by adding pass transistor logic.Also, The d
 ![hack_3](https://user-images.githubusercontent.com/72538560/156042098-5ff17e58-3fbd-4f99-a517-b38bacdef905.png)
 
 Also,the testbench schematic used for the simulation of transient analysis is given. Here, we have provided a dc voltage of 1.05V as power supply and two voltage pulses namely clkref and clkvco where the later is lagging by 3ns from the clkref. We have obtained the output waveforms UP and DOWN which are shown later.
-
+![hack_4](https://user-images.githubusercontent.com/72538560/156042836-f6d002db-6f28-4ba7-b86a-9f194356b8fc.png)
 
 ## Circuit Operation
 ![explanation](https://user-images.githubusercontent.com/72538560/156037554-811cdf36-3c28-4f8c-ad4c-9323ae9f17bf.png)
