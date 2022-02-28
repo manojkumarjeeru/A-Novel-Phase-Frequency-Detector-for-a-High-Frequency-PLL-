@@ -57,6 +57,8 @@ Also this PFD uses only 10, whereas a conventional PFD uses 54 transistors. Maxi
  and area is saved when compared with conventional PFD. The Power dissipated by the circuit is calculated and shown below.
 ![power](https://user-images.githubusercontent.com/72538560/156043913-5253712d-9a7f-4473-b384-01f7f98ecbac.png)
 
+![power1](https://user-images.githubusercontent.com/72538560/156044744-d03dce3f-4e93-412a-950b-a252555a6689.png)
+
 we have obtained a power dissipation about 48n Watts which is very less compared to the the conventional PFD which uses more transistors.
 
 
