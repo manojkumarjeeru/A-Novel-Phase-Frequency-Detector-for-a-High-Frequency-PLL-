@@ -20,7 +20,7 @@ and reducing jitter (Variation from its ideal position).
 The power consumption in the PFD contributes to a significant part of the total power consumption of a PLL.
 Therefore overall power consumption in a PLL can be reduced by minimizing the power consumption in PFD. The
 main challenge in the design of PFD is to obtain very high operating frequency with minimal power dissipation. In this paper a novel PFD architecture is
-proposed which is completely free from dead zone, dissipates very low power and operates at high frequency
+proposed which is completely free from dead zone, dissipates very low power and operates at high frequency is given
 
 ## Circuit Design and Details 
 ![schemetic](https://user-images.githubusercontent.com/99113992/152672756-90464ca6-c8ab-463e-8705-fd436b57b6cb.PNG) The 10T SRAM circuit is shown in fig.1.This circuit avoids the read operation noise by isolating the memory part(latch) of the cell from external environment by disabling the access transistors during read operation and the memory read operation is done by additing additional circuit connected to the Q.By this process we can also improve the read operation speed of SRAM since we are not using access transistors for measuring memory read operation and hence the leakage current is decreased. 
