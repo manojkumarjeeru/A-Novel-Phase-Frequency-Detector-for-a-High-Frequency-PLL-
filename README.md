@@ -40,6 +40,7 @@ delay for reset.
 Transient Response Analysis for the proposed circuit is shown below . From the fig it is clear that we provided a delay between both the inputs, when CLKvco is
 lagging CLKref by 3ns, the UP signal goes high and vice-versa .Also,whenever both are high immediately both UP and DN signal go
 down. The operational waveforms are similar to that of conventional PFD.
+![waveform](https://user-images.githubusercontent.com/72538560/156040612-88e9244c-62eb-40bf-ae18-12aaeb03f2eb.png)
 
 
 
