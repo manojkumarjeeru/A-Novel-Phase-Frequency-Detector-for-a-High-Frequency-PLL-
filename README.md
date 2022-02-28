@@ -1,5 +1,5 @@
 # A Novel Phase Frequency Detector for a High Frequency PLL
-In this project I have implemented new phase frequency detector (PFD) which use only 10 transistors, whereas a conventional PFD uses 54 transistors. Prototype has been designed in Synopsys Custom Compiler  and implemented using 28nm technology with a supply voltage of 1.05V .The reset process has been completely removed in this design thereby eliminating the blind zone and speeding up the acquisition process. The design has been proposed for high speed, low power and low jitter applications.. 
+In this project I have implemented new phase frequency detector (PFD) which use only 10 transistors, whereas a conventional PFD uses 54 transistors. Prototype has been designed in Synopsys Custom Compiler  and implemented using 28nm technology with a supply voltage of 1.05V .The reset process has been completely removed in this design thereby eliminating the dead zone and speeding up the acquisition process reducing the delay in circuit. The design has been proposed for high speed, low power and low jitter applications. 
 
 # Table of Contents 
 1.[Introduction](#Introduction) 
@@ -12,7 +12,17 @@ In this project I have implemented new phase frequency detector (PFD) which use 
 8.[Author](#Author) 
 
 ## Introduction 
-Now-a-days among different memory elements SRAM(Static Random Access Memory) became very popular because of their high speed operations and low power consumption. The most common SRAM cell used in todays applications are 6T SRAM.Even through it has low power consumption and high speed operation compared other memory elements like DRAM,the read operation in 6T SRAM is still slow because of the time taken by the access transistors to access the memory part(latch) of the SRAM,i.e.,time taken for the read/write operation would be quite large resulting in increased leaksge power over this long period of time in the idle circuit.And also since the READ operation is performed by making WL=1 and keeping the access transistors in Active state, the read operation may disturb or corrupt the data present in the memory element(latch) due to the external static noise.So,In this paper we have discussed about the 10T SRAM which has low leakage power, high read operation speed,avoid noise in read operation and solves the limitations of conventional 6T SRAM. 
+Phase Locked Loop (PLL) is a class of circuit, used primarily in communication systems suitable for a wide
+variety of applications, such as AM radio receivers, frequency demodulators, multipliers, dividers, and as
+frequency synthesizers. Recent advances in integrated circuit design techniques have led to the development of
+high performance PLL which has become more economical and reliable. Now a whole PLL circuit can be
+integrated as a part of a larger circuit on a single chip.
+The power consumption in the PFD contributes to a significant part of the total power consumption of a PLL.
+Therefore overall power consumption in a PLL can be reduced by minimizing the power consumption in PFD. The
+main challenge in the design of PFD is to obtain very high operating frequency with minimal power dissipation.
+Different PFD designs have been proposed by many researchers for achieving high operating frequency
+however power consumption reported have been comparatively high [1-4]. In this paper a novel PFD architecture is
+proposed which is completely free from dead zone, dissipates very low power and operates at high frequency
 
 ## Circuit Design and Details 
 ![schemetic](https://user-images.githubusercontent.com/99113992/152672756-90464ca6-c8ab-463e-8705-fd436b57b6cb.PNG) The 10T SRAM circuit is shown in fig.1.This circuit avoids the read operation noise by isolating the memory part(latch) of the cell from external environment by disabling the access transistors during read operation and the memory read operation is done by additing additional circuit connected to the Q.By this process we can also improve the read operation speed of SRAM since we are not using access transistors for measuring memory read operation and hence the leakage current is decreased. 
