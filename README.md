@@ -28,6 +28,10 @@ proposed which is completely free from dead zone, dissipates very low power and 
 The Circuit Design consists of Two D-Flip Flops without reset .The design  design concentrates on eliminating reset delay so that the dead zones are completely
 removed.The reset path is eliminated by adding pass transistor logic.Also, The design uses only 10 transistors which reduces power consumpumtion and overall area of the PLL Circuit compared to conventional PLL.
 #### Symbol Of The Schematic
+![hack_3](https://user-images.githubusercontent.com/72538560/156042098-5ff17e58-3fbd-4f99-a517-b38bacdef905.png)
+
+Also,the testbench schematic used for the simulation of transient analysis is given. Here, we have provided a dc voltage of 1.05V as power supply and two voltage pulses namely clkref and clkvco where the later is lagging by 3ns from the clkref. We have obtained the output waveforms UP and DOWN which are shown later.
+
 
 ## Circuit Operation
 ![explanation](https://user-images.githubusercontent.com/72538560/156037554-811cdf36-3c28-4f8c-ad4c-9323ae9f17bf.png)
