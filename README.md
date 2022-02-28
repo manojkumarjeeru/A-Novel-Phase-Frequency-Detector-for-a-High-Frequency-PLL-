@@ -51,6 +51,13 @@ down. The operational waveforms are similar to that of conventional PFD.
 
 
 ## Conclusion 
+The proposed PFD is completely free from Dead Zone and the Reset time of the PFD is Zero.
+Also this PFD uses only 10, whereas a conventional PFD uses 54 transistors. Maximum operating frequency of PFD1 is
+ higher than other PFDs. It can also be seen that power dissipation is reduced by
+ and area is saved when compared with conventional PFD. The Power dissipated by the circuit is calculated and shown below.
+ 
+
+
 
 
 ## References 
