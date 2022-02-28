@@ -27,6 +27,7 @@ proposed which is completely free from dead zone, dissipates very low power and 
 
 The Circuit Design consists of Two D-Flip Flops without reset .The design  design concentrates on eliminating reset delay so that the dead zones are completely
 removed.The reset path is eliminated by adding pass transistor logic.Also, The design uses only 10 transistors which reduces power consumpumtion and overall area of the PLL Circuit compared to conventional PLL.
+#### Symbol Of The Schematic
 
 ## Circuit Operation
 ![explanation](https://user-images.githubusercontent.com/72538560/156037554-811cdf36-3c28-4f8c-ad4c-9323ae9f17bf.png)
@@ -53,8 +54,8 @@ Design ",International Conference On DESIGN AND MANUFACTURING, IConDM 2013
 , ( 2013 ) 377 – 384. 
 
 ## Acknowledgement 
-Kunal Ghosh,Co-founder of VLSI System Design Corporation Pvt. Ltd. 
-Cloud Based Analog IC Design
+Kunal Ghosh,Co-founder of VLSI System Design Corporation Pvt. Ltd;
+Cloud Based Analog IC Design;
 Synopsys India
 
 ## Author 
