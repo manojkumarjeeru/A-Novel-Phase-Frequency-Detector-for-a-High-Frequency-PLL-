@@ -27,10 +27,11 @@ proposed which is completely free from dead zone, dissipates very low power and 
 The Circuit Design consists of Two D-Flip Flops without reset .The design  design concentrates on eliminating reset delay so that the dead zones are completely
 removed.The reset path is eliminated by adding pass transistor logic.Also, The design uses only 10 transistors which reduces power consumpumtion and overall area of the PLL Circuit compared to conventional PLL.
 
-## Circuit Operation 
-Initially the CLKref and CLKvco signals are at logic zero which are provided as clocks to D flip-flops. At the rising edge of CLKref, N7, N8 and N12 turns on and the UP signal goes to logic high. At the
-rising edge of CLKvco, N9, N10 and N11 turn on forcing DN to go high. When both UP and DN are high, the logic
-levels at points R and S in Fig. 3 are pulled down to logic zero making UP and DN to go to logic zero without any
+## Circuit Operation
+![explanation](https://user-images.githubusercontent.com/72538560/156036900-884eace0-78e0-47e6-a60d-783d0ec1eed2.png)
+Initially the CLKref and CLKvco signals are at logic zero. At the rising edge of CLKref, N1, N4 and N5 turns on and the UP signal goes to logic high. At the
+rising edge of CLKvco, N2, N3 and N6 turn on forcing DN to go high. When both UP and DN are high, the logic
+levels at points A and B in Fig. 3 are pulled down to logic zero making UP and DN to go to logic zero without any
 delay for reset. 
 
 ## Simulation Waveforms 
