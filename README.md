@@ -2,14 +2,14 @@
 In this project I have implemented new phase frequency detector (PFD) which use only 10 transistors, whereas a conventional PFD uses 54 transistors. Prototype has been designed in Synopsys Custom Compiler  and implemented using 28nm technology with a supply voltage of 1.05V .The reset process has been completely removed in this design thereby eliminating the dead zone and speeding up the acquisition process reducing the delay in circuit. The design has been proposed for high speed, low power and low jitter applications. 
 
 # Table of Contents 
-1.[Introduction](#Introduction) 
-2.[Circuit Design and Details](#Circuit-Design-and-Details) 
-3.[Circuit Operation](#Circuit-Operation) 
-4.[Simulation Waveforms](#Simulation-Waveforms) 
-5.[Conclution](#Conclution) 
-6.[References](#References) 
-7.[Acknowledgement](#Acknowledgement) 
-8.[Author](#Author) 
+1. [Introduction](#Introduction) 
+2. [Circuit Design and Details](#Circuit-Design-and-Details) 
+3. [Circuit Operation](#Circuit-Operation) 
+4. [Simulation Waveforms](#Simulation-Waveforms) 
+5. [Conclution](#Conclution) 
+6. [References](#References) 
+7. [Acknowledgement](#Acknowledgement) 
+8. [Author](#Author) 
 
 ## Introduction 
 PLL circuits have a wide range of uses in modern communications, including
