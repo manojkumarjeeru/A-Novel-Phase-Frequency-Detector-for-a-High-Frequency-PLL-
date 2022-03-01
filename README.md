@@ -6,7 +6,7 @@ In this project I have implemented new phase frequency detector (PFD) which use 
 2. [Circuit Design and Details](#Circuit-Design-and-Details) 
 3. [Circuit Operation](#Circuit-Operation) 
 4. [Simulation Waveforms](#Simulation-Waveforms) 
-5. [Conclution](#Conclution) 
+5. [Conclusion](#Conclusion) 
 6. [References](#References) 
 7. [Acknowledgement](#Acknowledgement) 
 8. [Author](#Author) 
