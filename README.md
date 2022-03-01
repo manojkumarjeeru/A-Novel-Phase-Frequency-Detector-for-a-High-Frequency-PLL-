@@ -70,7 +70,9 @@ Design ",International Conference On DESIGN AND MANUFACTURING, IConDM 2013
 
 ## Acknowledgement 
 Kunal Ghosh,Co-founder of VLSI System Design Corporation Pvt. Ltd;
+
 Cloud Based Analog IC Design;
+
 Synopsys India
 
 ## Author 
