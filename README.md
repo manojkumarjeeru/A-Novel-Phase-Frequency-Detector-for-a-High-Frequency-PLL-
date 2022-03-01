@@ -6,10 +6,11 @@ In this project I have implemented new phase frequency detector (PFD) which use 
 2. [Circuit Design and Details](#Circuit-Design-and-Details) 
 3. [Circuit Operation](#Circuit-Operation) 
 4. [Simulation Waveforms](#Simulation-Waveforms) 
-5. [Conclusion](#Conclusion) 
-6. [References](#References) 
-7. [Acknowledgement](#Acknowledgement) 
-8. [Author](#Author) 
+5. [Netlist](#Netlist)
+6. [Conclusion](#Conclusion) 
+7. [References](#References) 
+8. [Acknowledgement](#Acknowledgement) 
+9. [Author](#Author) 
 
 ## Introduction 
 PLL circuits have a wide range of uses in modern communications, including
@@ -47,6 +48,9 @@ Transient Response Analysis for the proposed circuit is shown below . From the f
 lagging CLKref by 3ns, the UP signal goes high and vice-versa .Also,whenever both are high immediately both UP and DN signal go
 down. The operational waveforms are similar to that of conventional PFD.
 ![waveform](https://user-images.githubusercontent.com/72538560/156040612-88e9244c-62eb-40bf-ae18-12aaeb03f2eb.png)
+
+## Netlist
+[netlist.txt](https://github.com/manojkumarjeeru/A-Novel-Phase-Frequency-Detector-for-a-High-Frequency-PLL-/files/8161429/netlist.txt)
 
 
 
